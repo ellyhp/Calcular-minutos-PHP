@@ -1,0 +1,11 @@
+<?php
+
+    //Responder en esta variable
+    $segundos = 3600;
+    $horas_calcular = $segundos / 3600;
+    $segundos = $segundos  % 60;
+    $minutos = $segundos / 60;
+
+    echo "El tiempo es $horas_calcular horas, $minutos minutos $segundos segundos,"
+
+?>
