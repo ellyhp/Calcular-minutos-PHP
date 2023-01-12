@@ -3,14 +3,12 @@
     //Responder en esta variable
     $segundos = 3601;
 
-    $horas_calcular = $segundos / 3600;
-    $horas_calcular = (int) $horas_calcular;
+    $horas_calcular = (int)($segundos / 3600);
 
-    $segundos = $segundos % 60;
-    $segundos = (int)$segundos;
+    $segundos = (int)($segundos % 60);
 
-    $minutos =  $segundos / 60;
-    $minutos = (int) $minutos;
+    $minutos =  (int)($segundos / 60);
+
 
     echo "El tiempo es $horas_calcular horas, $minutos minutos $segundos segundos,"
 
