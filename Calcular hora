@@ -1,0 +1,8 @@
+<?php
+
+    function hora(){
+        return date("h:i a");
+    }
+    echo "Que hora es? <br>";
+    echo "Son las ".hora()."<br>";
+?>
